@@ -9,4 +9,13 @@ public class Book {
     public String author;
     public String name;
     public int num_pages;
+
+
+    /*
+    * https://www.javatpoint.com/understanding-toString()-method
+    * */
+    @Override
+    public String toString() {
+        return "Book: " + "Title: " + name + " ,Author: " + author + " ,number of pages: " + num_pages;
+    }
 }
