@@ -1,12 +1,12 @@
 package BookPackage;
 
 public class Book {
-    public Book (String name, String author, int pages){
+    public Book (String name, String author, int num_pages){
         this.name= name;
         this.author = author;
-        this.pages = pages;
+        this.num_pages = num_pages;
     }
     public String author;
     public String name;
-    public int pages;
+    public int num_pages;
 }

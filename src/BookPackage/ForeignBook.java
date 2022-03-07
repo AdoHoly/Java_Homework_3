@@ -8,6 +8,7 @@ public class ForeignBook extends Book{
 
     public ForeignBook(String name, String author, int pages){
         super(name,author,pages);
+        this.language = "English";
     }
 
     public String language;

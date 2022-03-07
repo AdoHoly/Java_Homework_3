@@ -7,6 +7,8 @@ import BorrowingPackage.Borrowing;
 import SubscriberPackage.Subscriber;
 import SubscriberPackage.SubscriberAddress;
 
+import java.time.LocalDate;
+
 public class MainClass {
     public static void main(String[] args) {
         Book physics = new ScientificBook("Basics of Gravity", "Isaac Newton", 200, "Physics");
