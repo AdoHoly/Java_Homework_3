@@ -1,6 +1,15 @@
+package MainPackage;
+
+import BookPackage.Book;
+import BookPackage.ForeignBook;
+import BookPackage.ScientificBook;
+import BorrowingPackage.Borrowing;
+import SubscriberPackage.Subscriber;
+import SubscriberPackage.SubscriberAddress;
+
 public class MainClass {
     public static void main(String[] args) {
-        Book physics = new ScientificBook ("Basics of Gravity", "Isaac Newton", 200, "Physics");
+        Book physics = new ScientificBook("Basics of Gravity", "Isaac Newton", 200, "Physics");
         Book serbian = new ForeignBook("Orlovi Rano Lete", "Branko Copic", 120, "Serbian");
         Book slovak = new Book("Zart", "Milan Kunera", 120);
         Book english = new ForeignBook("Love in the time of Cholera", "Gabriel Garcia Marquez", 120);
